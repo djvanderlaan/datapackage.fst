@@ -1,0 +1,22 @@
+Package: datapackage.fst
+Type: Package
+Title: Data reader for fst-format for the datapackage package
+Version: 0.0.1
+Authors@R: 
+    person(given = "Jan",
+           family = "van der Laan",
+           role = c("aut", "cre"),
+           email = "r@eoos.dds.nl",
+           comment = c(ORCID = "0000-0002-0693-1514"))
+Description: Add a reader for fst files to the datapackage package
+Depends:
+    datapackage,
+    R (>= 3.6.0)
+Imports:
+    fst
+Suggests:
+    simplermarkdown,
+VignetteBuilder: simplermarkdown
+License: GPL-3
+Encoding: UTF-8
+RoxygenNote: 7.2.3
